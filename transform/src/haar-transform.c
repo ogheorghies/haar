@@ -133,7 +133,7 @@ int input_generate_haar(struct data_t* input, void (*result_processor)(double))
     double sqrt_2 = sqrt(2);
     int div = 1; // or 2, after the first iteration.
 
-    // With the exception of the first iteration, the size of the computed array b half of the source array a.
+    // With the exception of the first iteration, the size of the computed array b is half that of the source array a.
     // See https://cs.nyu.edu/media/publications/zhu_yunyue.pdf page 59.
     // a0 a1 a2 a3 a4 a5 a6 a7
     // \   /\    /\    /\    /
